@@ -34,7 +34,7 @@ use GLFRM\Api\Api;
 use GLFRM\Includes\Admin;
 use GLFRM\Includes\Frontend;
 
-final class WP_Vue_Kickstart {
+final class Glorious_Frameowrk {
 
     /**
      * Define Plugin Version
@@ -115,9 +115,9 @@ final class WP_Vue_Kickstart {
  * Initialize Main Plugin
  * @since 1.0.0
  */
-function wp_vue_kickstart() {
-    return WP_Vue_Kickstart::init();
+function glorious_framework() {
+    return Glorious_Frameowrk::init();
 }
 
 // Run the Plugin
-wp_vue_kickstart();
+glorious_framework();
