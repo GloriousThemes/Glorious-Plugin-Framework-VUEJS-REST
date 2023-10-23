@@ -1,0 +1,22 @@
+
+{
+    "name": "rabiul/gloriousframework",
+    "description": "An WordPress plugin starter with Vue Js.",
+    "authors": [
+        {
+            "name": "Niraj",
+            "email": "hello@gloriousmotive.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GLFRM\\Admin\\": "admin/",
+            "GLFRM\\Frontend\\": "frontend/",
+            "GLFRM\\Includes\\": "includes/",
+            "GLFRM\\Api\\": "api/"
+        }
+    },
+    "require-dev": {
+    }
+}
